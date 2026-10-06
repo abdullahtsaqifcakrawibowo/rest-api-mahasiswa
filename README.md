@@ -1,15 +1,69 @@
-# Elysia with Bun runtime
+# Implementasi HTTP Request Method via REST API
 
-## Getting Started
-To get started with this template, simply paste this command into your terminal:
+Project ini dibuat untuk memenuhi tugas implementasi HTTP Request Method menggunakan REST API dengan Elysia dan Bun.
+
+## Deskripsi
+
+Project ini merupakan REST API sederhana untuk data mahasiswa.
+
+## HTTP Request Method
+
+Project ini mengimplementasikan:
+
+- GET
+- POST
+- PUT
+- PATCH
+- DELETE
+- CONNECT
+
+## Endpoint
+
+### GET
+
+GET /mahasiswa/:id
+
+Digunakan untuk mengambil data mahasiswa berdasarkan ID.
+
+### POST
+
+POST /mahasiswa/:id
+
+Digunakan untuk mengirim data mahasiswa.
+
+### PUT
+
+PUT /mahasiswa/:id
+
+Digunakan untuk melakukan perubahan data.
+
+### PATCH
+
+PATCH /mahasiswa/:id
+
+Digunakan untuk melakukan perubahan sebagian data.
+
+### DELETE
+
+DELETE /mahasiswa/:id
+
+Digunakan untuk menghapus data mahasiswa.
+
+### CONNECT
+
+CONNECT /mahasiswa/:id
+
+Digunakan untuk mengimplementasikan HTTP Request Method CONNECT.
+
+## Teknologi
+
+- Bun
+- Elysia
+- TypeScript
+
+## Cara Menjalankan
+
+Install dependency:
+
 ```bash
-bun create elysia ./elysia-example
-```
-
-## Development
-To start the development server run:
-```bash
-bun run dev
-```
-
-Open http://localhost:3000/ with your browser to see the result.
+bun install
